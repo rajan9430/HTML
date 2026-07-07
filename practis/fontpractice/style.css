@@ -1,14 +1,12 @@
 ul{
-    
     list-style: none;
     font-weight: bold;
 }
 ul>li>a{
     text-decoration: none;
-}
-ul>li>a.you{
     color:red;
 }
+
 .container1{
     font-family: "Montenegrin Gothic One", serif;
   font-weight: 400;
