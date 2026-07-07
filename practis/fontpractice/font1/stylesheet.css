@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Yuyu Short';
+    src: url('YuyuShort-Regular.woff2') format('woff2'),
+        url('YuyuShort-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montenegrin Gothic One';
+    src: url('MontenegrinGothicOne-Regular.woff2') format('woff2'),
+        url('MontenegrinGothicOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
