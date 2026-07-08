@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+.para1{
+    color: red;
+    text-indent: 50px;
+    text-align: justify;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+}
+.para2{
+    color: blueviolet;
+    text-indent: 50px;
+    text-align: justify;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-style: italic;
+    font-size: 20px;
+    font-family: "black ops one", serif;
+}
+ul{
+    list-style: none;
+}
+ul>li>a{
+    text-decoration: none;
+}

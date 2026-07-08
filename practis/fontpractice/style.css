@@ -1,0 +1,27 @@
+ul{
+    list-style: none;
+    font-weight: bold;
+}
+ul>li>a{
+    text-decoration: none;
+    color:red;
+}
+
+.container1{
+    font-family: "Montenegrin Gothic One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+.container2{
+  font-family: "Yuyu Short", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+.container1{
+    font-family: "Montenegrin Gothic One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
