@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+}
+h1{
+    font-family: "Oswald", serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 60px;
+}
+h4{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color:green;
+    font-style: italic;
+    font-size: 20px;
+}
+h2{
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.contact{
+    line-height: 1.5;
+}
