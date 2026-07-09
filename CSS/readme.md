@@ -59,8 +59,8 @@ portfolio/
    ```bash
    git clone https://github.com/rajan9430/HTML
    ```
-2. Go to the css file.
-3. Open the project folder.
+2. Go to the labwork project file.
+3. Open the css folder.
 4. Double-click **index.html** or open it in your browser.
 
 ## 📞 Contact
