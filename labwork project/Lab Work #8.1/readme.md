@@ -60,7 +60,7 @@ portfolio/
    git clone https://github.com/rajan9430/HTML
    ```
 2. Go to the labwork project file.
-3. Open the css folder.
+3. Open the Lab Work #8.1 folder.
 4. Double-click **index.html** or open it in your browser.
 
 ## 📞 Contact
