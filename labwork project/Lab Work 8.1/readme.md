@@ -5,7 +5,7 @@ This is a simple and responsive **Personal Portfolio Website** built using **HTM
 ## 📸 Screenshot
 
 <p align="center">
-  <img src="output/output.png" alt="Portfolio Screenshot" width="900">
+  <img src="output/output.png" alt="Portfolio Screenshot" width="900" height="500">
 </p>
 
 ## 📌 Features
