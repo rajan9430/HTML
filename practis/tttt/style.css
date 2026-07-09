@@ -1,5 +1,9 @@
+body{
+    background-color: aqua;
+}
 h1{
     text-align: center;
+    font-size:50px;
 }
 .para1{
     color: red;
@@ -12,7 +16,7 @@ h1{
     color: blueviolet;
     text-indent: 50px;
     text-align: justify;
-    text-transform: uppercase;
+    text-transform: inherit;
     letter-spacing: 2px;
     font-style: italic;
     font-size: 20px;
@@ -23,4 +27,5 @@ ul{
 }
 ul>li>a{
     text-decoration: none;
+    font-size: 30px;
 }
