@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    text-align: center;
+}
+.logo img{
+    margin-top: 20px;
+}
+.box{
+    width: 350px;
+    height: 330px;
+    border: 1px solid #ccc;
+    margin:auto;
+    border-radius: 10px;
+}
+.box h3,.form,span{
+    margin: 20px;
+}
+h3{
+    text-align: center;
+    text-decoration: underline;
+}
+input{
+    line-height: 30px;
+    width: 100%;
+}
+button{
+    margin-top: 20px;
+    background-color: #FFD814;
+    color: black;
+    border: none;
+    width: 100%;
+    line-height: 30px;
+    border-radius: 20px;
+}
+span{
+    font-size: 14px;
+}
+hr{
+    margin: 20px;
+}
+.bye{
+    margin-left: 20px;
+    font-size: 14px;
+}
+span a{
+    font-size: 14px;
+}
+.footer{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+}
+.footer2 span{
+    line-height: 40px;
+    font-size: 13px;
+}

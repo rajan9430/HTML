@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #131921;
+}
+.barlist1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.logo img{
+    margin-top: 10px;
+}
+.icon a i{
+    color: white;
+}
+
+.icon a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+.search form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    width: 300px;
+    height: 30px;
+    border: none;
+    padding: 5px;
+}
+.btn{
+    width: 50px;
+    height: 30px;
+    background-color: #febd69;
+    border: none;
+}
+.option{
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.flag{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.flag img{
+    width: 20px;
+    height: 20px;
+}
+.bar{
+    background-color: #232F3E;
+    height: 40px;
+    
+}
+.barlist2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.barlist2 li{
+    margin-top: 10px;
+}
+.barlist2 li a{
+    color: white;
+    text-decoration: none;
+}
+.banner{
+    background-image: url("../images/main-page.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+h3{
+    font-size: 15px;
+}
+
+.card{
+    width: 300px;
+    background: #fff;
+    padding: 20px;
+    margin-top: 500px;
+}
+
+/* .card h2{
+    font-size: 28px;
+    margin-bottom: 20px;
+} */
+
+.card-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+
+.item img{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+.item p{
+    margin-top: 8px;
+    font-size: 15px;
+}
+
+.more{
+    display: inline-block;
+    margin-top: 25px;
+    text-decoration: none;
+    color: #007185;
+    font-size: 16px;
+}
