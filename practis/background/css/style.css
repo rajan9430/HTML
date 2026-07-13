@@ -28,3 +28,58 @@
     text-align: center;
     margin: 0 310px;
 }
+.box{
+    background: linear-gradient(35deg, #77ef77, #ffffff,#ec7e25);
+    height: 100vh;
+    background-attachment: fixed;
+}
+.box1{
+    background: radial-gradient(circle, #77ef77, #ffffff,#ec7e25);
+    height: 100vh;
+    background-attachment: fixed;
+}
+.box2{
+    background: conic-gradient(#77ef77, #ffffff,#ec7e25); 
+    height: 100vh;
+    background-attachment: fixed;
+}
+.img1{
+    background-image: url("../images/bg.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.img2{
+    background-image: url("../images/bg2.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.img3{
+    background-image: url("../images/bg3.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.img4{
+    background-image: url("../images/bg.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.img5{
+    background-image: url("../images/bg2.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
