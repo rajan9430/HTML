@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background-section{
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    border: 5px solid #77ef77;
+    text-align: center;
+    padding-top: 50px;
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.con{
+    width:150px;
+    height: 150px;
+    border: 2px solid red;
+    padding-left: 150px;
+    background-image: url("../images/bg3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin: 0 310px;
+}
