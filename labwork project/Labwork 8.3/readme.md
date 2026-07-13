@@ -47,7 +47,7 @@ project-folder/
 1. Download or clone the project.
 
 ```bash
-git clone https://github.com/your-username/team-profile-card.git
+git clone https://github.com/rajan9430/HTML.git
 ```
 
 2. Open the project folder.
@@ -69,8 +69,7 @@ Add a screenshot of your project here.
 
 Example:
 
-```
-images/screenshot.png
+<img src=".//output/output.png" alt="output" width="700" height="500">
 ```
 
 ## 📚 What I Learned
