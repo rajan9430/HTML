@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 100%;
+    height: 100vh;
+}
+
+.box h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+.first-box1{
+    width: 230px;
+    height: 430px;
+    background-color: rgb(236, 234, 234);
+    display: inline-block;
+    margin: 7px 7px 7px 20px;
+    border-radius: 10px;
+    
+}
+
+.third-box3,
+.forth-box4,
+.fifth-box5 {
+    width: 230px;
+    height: 430px;
+    background-color: rgb(236, 234, 234);
+    display: inline-block;
+    margin: 7px;
+    border-radius: 10px;
+}
+
+.first-box1 .first-box-card,
+.third-box3 .third-box-card,
+.forth-box4 .forth-box-card,
+.fifth-box5 .fifth-box-card {
+    width: 100%;
+    height: 150px;
+    background-color: #F7F7F7;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.first-box1 .first-box-card .img {
+    background-image: url("../images/Tata\ ac.webp");
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 100%;
+}
+
+.third-box3 .third-box-card .img{
+    background-image: url("../images/voltas\ ac\ \(1\).png");
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 100%;
+}
+
+.forth-box4 .forth-box-card .img{
+    background-image: url("../images/cruise.webp");
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 100%;
+}
+.fifth-box5 .fifth-box-card .img{
+    background-image: url("../images/daikin\ ac.png");
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 100%;
+}
+
+.first-box1 .first-box-card p,
+.third-box3 .third-box-card p,
+.forth-box4 .forth-box-card p,
+.fifth-box5 .fifth-box-card p {
+    padding: 20px;
+    text-align: justify;
+}
+
+.first-box1 .first-box-card .rate,
+.third-box3 .third-box-card .rate,
+.forth-box4 .fifth-box-card .rate,
+.fifth-box5 .fifth-box-card .rate {
+    font-size: 15px;
+    padding: 20px;
+}
+
+.first-box1 .first-box-card .rate .strong,
+.third-box3 .third-box-card .rate .strong,
+.forth-box4 .forth-box-card .rate .strong,
+.fifth-box5 .fifth-box-card .rate .strong {
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+.first-box1 .first-box-card .rate .strong sup,
+.third-box3 .third-box-card .rate .strong sup,
+.forth-box4 .forth-box-card .rate .strong sup,
+.fifth-box5 .fifth-box-card .rate .strong sup {
+    font-size: 13px;
+    margin-right: 3px;
+
+}
+
+.first-box1 .first-box-card .rate .mrp,
+.third-box3 .third-box-card .rate .mrp,
+.forth-box4 .forth-box-card .rate .mrp,
+.fifth-box5 .fifth-box-card .rate .mrp {
+    margin-left: 5px;
+    font-size: 13px;
+    color: grey;
+}
+
+.first-box1 .first-box-card .off,
+.third-box3 .third-box-card .off,
+.forth-box4 .forth-box-card .off,
+.fifth-box5 .fifth-box-card .off {
+    padding: 20px;
+    line-height: 25px;
+}
+
+.first-box1 .first-box-card .btn,
+.third-box3 .third-box-card .btn,
+.forth-box4 .forth-box-card .btn,
+.fifth-box5 .fifth-box-card .btn {
+    width: 95%;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    margin: 5px;
+    background-color: #FFD814;
+}
+
+.first-box1 .first-box-card .btn a,
+.third-box3 .third-box-card .btn a,
+.forth-box4 .forth-box-card .btn a,
+.fifth-box5 .fifth-box-card .btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.second-box2 {
+    width: 230px;
+    height: 430px;
+    background-color: rgb(236, 234, 234);
+    display: inline-block;
+    margin: 7px;
+    border-radius: 10px;
+}
+
+.second-box2 .second-box-card {
+    width: 100%;
+    height: 150px;
+    background-color: #F7F7F7;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.second-box2 .second-box-card .img {
+    background-image: url("../images/hitachi.png");
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 100%;
+}
+
+
+.second-box2 .second-box-card p {
+    padding: 20px;
+    text-align: justify;
+}
+
+.second-box2 .second-box-card .rate {
+    font-size: 15px;
+    padding: 20px;
+}
+
+.second-box2 .second-box-card .rate .strong {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+.second-box2 .second-box-card .rate .mrp {
+    margin-left: 5px;
+    font-size: 15px;
+    color: #3A73AB;
+}
+
+.second-box2 .second-box-card .off {
+    padding: 20px;
+    line-height: 25px;
+    color: gray;
+}
+
+.second-box2 .second-box-card .btn {
+    width: 95%;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    margin: 5px 5px 20px 5px;
+    background-color: #FFD814;
+}
+
+.second-box2 .second-box-card .btn a {
+    text-decoration: none;
+    color: black;
+}
+
+/* .third-box3{
+    width: 230px;
+    height: 430px;
+    background-color: rgb(236, 234, 234);
+    display: inline-block;
+    margin: 7px;
+}
+.third-box3 .third-box-card{
+    width: 100%;
+    height: 150px;
+    background-color: #F7F7F7;
+}
+.third-box3 .third-box-card .img{
+    background-image: url("../images/voltas\ ac.png");
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 100%;
+}
+.third-box3 .third-box-card p{
+    padding: 20px;
+    text-align: justify;
+}
+.third-box3 .third-box-card .rate{
+    font-size: 15px;
+    padding: 20px;
+}
+.third-box3 .third-box-card .rate .strong{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+.third-box3 .third-box-card .rate .strong sup{
+    font-size: 13px;
+    margin-right: 3px;
+    
+}
+.third-box3 .third-box-card .rate .mrp{
+    margin-left: 5px;
+    font-size: 13px;
+    color: grey;
+}
+.third-box3 .third-box-card .off{
+    padding: 20px;
+    line-height: 25px;
+}
+.third-box3 .third-box-card .btn{
+    width: 95%;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    margin: 5px;
+    background-color: #FFD814;
+}
+.third-box3 .third-box-card .btn a{
+   text-decoration: none;
+   color: black;
+}
+.fourth-box4{
+    width: 230px;
+    height: 430px;
+    background-color: rgb(236, 234, 234);
+    display: inline-block;
+    margin: 7px;
+}
+.fourth-box4 .fourth-box-card{
+    width: 100%;
+    height: 150px;
+    background-color: #F7F7F7;
+}
+.fourth-box4 .fourth-box-card .img{
+    background-image: url("../images/voltas\ ac.png");
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 100%;
+}
+.fourth-box4 .fourth-box-card p{
+    padding: 20px;
+    text-align: justify;
+}
+.fourth-box4 .fourth-box-card .rate{
+    font-size: 15px;
+    padding: 20px;
+}
+.fourth-box4 .fourth-box-card .rate .strong{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+.fourth-box4 .fourth-box-card .rate .strong sup{
+    font-size: 13px;
+    margin-right: 3px;
+    
+}
+.fourth-box4 .fourth-box-card .rate .mrp{
+    margin-left: 5px;
+    font-size: 13px;
+    color: grey;
+}
+.fourth-box4 .fourth-box-card .off{
+    padding: 20px;
+    line-height: 25px;
+}
+.fourth-box4 .fourth-box-card .btn{
+    width: 95%;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    margin: 5px;
+    background-color: #FFD814;
+}
+.fourth-box4 .fourth-box-card .btn a{
+   text-decoration: none;
+   color: black;
+}
+.fifth-box5{
+    width: 230px;
+    height: 430px;
+    background-color: rgb(236, 234, 234);
+    display: inline-block;
+    margin: 7px;
+}
+.fifth-box5 .fifth-box-card{
+    width: 100%;
+    height: 150px;
+    background-color: #F7F7F7;
+}
+.fifth-box5 .fifth-box-card .img{
+    background-image: url("../images/voltas\ ac.png");
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 100%;
+}
+.fifth-box5 .fifth-box-card p{
+    padding: 20px;
+    text-align: justify;
+}
+.fifth-box5 .fifth-box-card .rate{
+    font-size: 15px;
+    padding: 20px;
+}
+.fifth-box5 .fifth-box-card .rate .strong{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+.fifth-box5 .fifth-box-card .rate .strong sup{
+    font-size: 13px;
+    margin-right: 3px;
+    
+}
+.fifth-box5 .fifth-box-card .rate .mrp{
+    margin-left: 5px;
+    font-size: 13px;
+    color: grey;
+}
+.fifth-box5 .fifth-box-card .off{
+    padding: 20px;
+    line-height: 25px;
+}
+.fifth-box5 .fifth-box-card .btn{
+    width: 95%;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    margin: 5px;
+    background-color: #FFD814;
+}
+.fifth-box5 .fifth-box-card .btn a{
+   text-decoration: none;
+   color: black;
+} */
