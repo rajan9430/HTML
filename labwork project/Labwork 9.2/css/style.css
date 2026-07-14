@@ -14,14 +14,14 @@
     margin: 10px;
 }
 
-.first-box1{
+.first-box1 {
     width: 230px;
     height: 430px;
     background-color: rgb(236, 234, 234);
     display: inline-block;
     margin: 7px 7px 7px 20px;
     border-radius: 10px;
-    
+
 }
 
 .third-box3,
@@ -54,7 +54,7 @@
     width: 100%;
 }
 
-.third-box3 .third-box-card .img{
+.third-box3 .third-box-card .img {
     background-image: url("../images/voltas\ ac\ \(1\).png");
     background-size: cover;
     background-position: center;
@@ -62,14 +62,15 @@
     width: 100%;
 }
 
-.forth-box4 .forth-box-card .img{
+.forth-box4 .forth-box-card .img {
     background-image: url("../images/cruise.webp");
     background-size: cover;
     background-position: center;
     height: 150px;
     width: 100%;
 }
-.fifth-box5 .fifth-box-card .img{
+
+.fifth-box5 .fifth-box-card .img {
     background-image: url("../images/daikin\ ac.png");
     background-size: cover;
     background-position: center;
@@ -128,22 +129,23 @@
     line-height: 25px;
 }
 
-.first-box1 .first-box-card .btn,
-.third-box3 .third-box-card .btn,
-.forth-box4 .forth-box-card .btn,
-.fifth-box5 .fifth-box-card .btn {
+.first-box1 .first-box-card a .btn,
+.third-box3 .third-box-card a .btn,
+.forth-box4 .forth-box-card a .btn,
+.fifth-box5 .fifth-box-card a .btn {
     width: 95%;
     height: 30px;
     border: none;
     border-radius: 20px;
     margin: 5px;
     background-color: #FFD814;
+    cursor: pointer;
 }
 
-.first-box1 .first-box-card .btn a,
-.third-box3 .third-box-card .btn a,
-.forth-box4 .forth-box-card .btn a,
-.fifth-box5 .fifth-box-card .btn a {
+.first-box1 .first-box-card a,
+.forth-box4 .forth-box-card a,
+.third-box3 .third-box-card a,
+.fifth-box5 .fifth-box-card a {
     text-decoration: none;
     color: black;
 }
@@ -202,16 +204,17 @@
     color: gray;
 }
 
-.second-box2 .second-box-card .btn {
+.second-box2 .second-box-card a .btn {
     width: 95%;
     height: 30px;
     border: none;
     border-radius: 20px;
     margin: 5px 5px 20px 5px;
     background-color: #FFD814;
+    cursor: pointer;
 }
 
-.second-box2 .second-box-card .btn a {
+.second-box2 .second-box-card a .btn {
     text-decoration: none;
     color: black;
 }
