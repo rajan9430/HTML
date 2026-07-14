@@ -1,14 +1,56 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 .box {
-  background-color: rgb(221, 88, 6);
+  /* background-color: rgb(221, 88, 6); */
   background-image: url("../images/sunset.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-position: center; */
-  height: 600px;
+  height: 400px;
   width: 100%;
+}
+
+.head {
+  height: 50px;
+  background: rgba(255, 255, 255, 0.15);
+  letter-spacing: 2px;
+ 
+  }
+.head nav {
+  text-align: center;
+}
+nav p{
+  padding-top: 15px;
+  color: #ffffff;
+}
+.linear{
+  height: 400px;
+  background: linear-gradient(30deg, orange, white, green);
+}
+.radial{
+  height: 400px;
+  background: radial-gradient(circle,orange, white, green);
+}
+.conic{
+  height: 400px;
+  background: conic-gradient(orange, white, green);
+}
+footer .content{
+  height: 60px;
+  border: 2px solid yellow;
+  padding-top: 20px;
+}
+.foot{
+  height: 130px;
+  text-align: center;
+}
+h3{
+  padding-top: 50px;
+}
+.foot p{
+  line-height: 30px;
+  color: gray;
 }
