@@ -62,7 +62,7 @@
 
 .products-found {
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 25px;
     font-family: "Roboto", sans-serif;
 }
 
@@ -76,7 +76,7 @@
 
 .dropdown-bar {
     display: inline-block;
-    margin-left: 850px;
+    margin-left: 816px;
     margin-top: 30px;
 }
 
@@ -84,6 +84,7 @@
     width: 100px;
     height: 25px;
     border-radius: 5px;
+    margin-right: 10px;
 }
 
 .dropdown-bar .feat {
@@ -92,19 +93,24 @@
     border-radius: 5px;
 }
 
-/* start card css */
+/* Start Card CSS */
 .product-box {
     width: 220px;
+    height: 350px;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 15px;
     margin-left: 25px;
+    margin-bottom: 20px;
+    display: inline-block;
+    vertical-align: top;
+    background: #fff;
 }
 
 .sale {
     display: inline-block;
     background: red;
-    color: white;
+    color: #fff;
     padding: 3px 8px;
     border-radius: 4px;
     font-size: 12px;
@@ -113,7 +119,7 @@
 .off {
     display: inline-block;
     background: green;
-    color: white;
+    color: #fff;
     padding: 3px 8px;
     border-radius: 4px;
     font-size: 12px;
@@ -126,6 +132,17 @@
     display: block;
     margin: 15px auto;
 }
+.product-box .img {
+    width: 120px;
+    height: 120px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.product-box .iii {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 35px;
+}
 
 .category {
     color: gray;
@@ -133,7 +150,7 @@
 }
 
 .product-box h3 {
-    font-size: 18px;
+    font-size: 16px;
     margin: 8px 0;
 }
 
@@ -145,18 +162,29 @@
     color: gray;
 }
 
-.price {
-    font-size: 22px;
-    font-weight: bold;
+.price-box {
+    margin-top: 10px;
+    overflow: hidden;
 }
 
-button {
-    width: 70px;
+.price {
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.price-box del {
+    color: gray;
+    font-size: 14px;
+}
+
+.price-box button {
+    width: 60px;
     height: 30px;
     background: green;
-    color: white;
+    color: #fff;
     border: none;
     border-radius: 5px;
-    margin-left: 25px;
-    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 66px;
 }
