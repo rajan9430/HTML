@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: antiquewhite;
+}
+
+.chass{
+    border: 2px solid black;
+    display: table;
+    margin: 50px auto;
+}
+
+.box1{
+    width: 70px;
+    height: 70px;
+    float: left;
+    background: black;
+    text-align: center;
+    line-height: 70px;
+    color: white;
+    font-size: 30px;
+}
+
+.box2{
+    width: 70px;
+    height: 70px;
+    float: left;
+    background: white;
+     text-align: center;
+    line-height: 70px;
+    font-size: 30px;
+}
+
+.clear-flax{
+    clear: both;
+}
