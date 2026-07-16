@@ -135,6 +135,7 @@ This project helped practice:
 * CSS selectors
 * Card layout design
 * Inline-block layout
+* float layout
 * Background images
 * Product badges
 * Search form
