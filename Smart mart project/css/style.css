@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 .head {
@@ -186,5 +187,35 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-left: 66px;
+    margin-left: 61px;
+}
+.foot{
+    background-color: rgb(90, 89, 89);
+    width: 100%;
+    height: 250px;
+}
+.address{
+    display: inline-block;
+    margin: 55px;
+    color: white;
+}
+.address h3{
+    font-size: 25px;
+    color: #70CCC7;
+}
+.address p i{
+    color: #70CCC7;
+    margin-right: 8px;
+}
+
+.address h4{
+    font-size: 20px;
+} 
+.address p{
+    margin-top: 10px;
+    color: grey;
+}
+.address p a{
+    color: rgb(185, 184, 184);
+    text-decoration: none;
 }
