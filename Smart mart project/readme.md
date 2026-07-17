@@ -94,7 +94,7 @@ SmartMart/
 
 ### Footer
 
-<img src="output/footer.png" alt="Footer" width="900px" height="450"/>
+<img src="output/footer.png" alt="Footer" width="900px" height="250"/>
 
 ---
 
