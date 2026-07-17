@@ -3,46 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chassboard</title>
+    <title>Chessboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
     <section class="chass">
-        <div class="box1">&#9820</div>
-        <div class="box2">&#9822</div>
-        <div class="box1">&#9821</div>
-        <div class="box2">&#9819</div>
-        <div class="box1">&#9818</div>
-        <div class="box2">&#9821</div>
-        <div class="box1">&#9822</div>
-        <div class="box2">&#9820</div>
+        <div class="box1">&#9820;</div>
+        <div class="box2">&#9822;</div>
+        <div class="box1">&#9821;</div>
+        <div class="box2">&#9819;</div>
+        <div class="box1">&#9818;</div>
+        <div class="box2">&#9821;</div>
+        <div class="box1">&#9822;</div>
+        <div class="box2">&#9820;</div>
         <div class="clear-flax"></div>
-        <div class="box2">&#9823</div>
-        <div class="box1">&#9823</div>
-        <div class="box2">&#9823</div>
-        <div class="box1">&#9823</div>
-        <div class="box2">&#9823</div>
-        <div class="box1">&#9823</div>
-        <div class="box2">&#9823</div>
-        <div class="box1">&#9823</div>
-        <div class="clear-flax"></div>
-        <div class="box1"></div>
-        <div class="box2"></div>
-        <div class="box1"></div>
-        <div class="box2"></div>
-        <div class="box1"></div>
-        <div class="box2"></div>
-        <div class="box1"></div>
-        <div class="box2"></div>
-        <div class="clear-flax"></div>
-        <div class="box2"></div>
-        <div class="box1"></div>
-        <div class="box2"></div>
-        <div class="box1"></div>
-        <div class="box2"></div>
-        <div class="box1"></div>
-        <div class="box2"></div>
-        <div class="box1"></div>
+        <div class="box2">&#9823;</div>
+        <div class="box1">&#9823;</div>
+        <div class="box2">&#9823;</div>
+        <div class="box1">&#9823;</div>
+        <div class="box2">&#9823;</div>
+        <div class="box1">&#9823;</div>
+        <div class="box2">&#9823;</div>
+        <div class="box1">&#9823;</div>
         <div class="clear-flax"></div>
         <div class="box1"></div>
         <div class="box2"></div>
@@ -62,23 +47,53 @@
         <div class="box2"></div>
         <div class="box1"></div>
         <div class="clear-flax"></div>
-        <div class="box1">&#9823</div>
-        <div class="box2">&#9823</div>
-        <div class="box1">&#9823</div>
-        <div class="box2">&#9823</div>
-        <div class="box1">&#9823</div>
-        <div class="box2">&#9823</div>
-        <div class="box1">&#9823</div>
-        <div class="box2">&#9823</div>
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box1"></div>
+        <div class="box2"></div>
         <div class="clear-flax"></div>
-        <div class="box2">&#9820</div>
-        <div class="box1">&#9822</div>
-        <div class="box2">&#9821</div>
-        <div class="box1">&#9819</div>
-        <div class="box2">&#9821</div>
-        <div class="box1">&#9818</div>
-        <div class="box2">&#9820</div>
-        <div class="box1">&#9822</div>
+        <div class="box2"></div>
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box1"></div>
+        <div class="clear-flax"></div>
+        <div class="box1">&#9817;</div>
+        <div class="box2">&#9817;</div>
+        <div class="box1">&#9817;</div>
+        <div class="box2">&#9817;</div>
+        <div class="box1">&#9817;</div>
+        <div class="box2">&#9817;</div>
+        <div class="box1">&#9817;</div>
+        <div class="box2">&#9817;</div>
+        <div class="clear-flax"></div>
+        <div class="box2">&#9814;</div>
+        <div class="box1">&#9816;</div>
+        <div class="box2">&#9815;</div>
+        <div class="box1">&#9813;</div>
+        <div class="box2">&#9812;</div>
+        <div class="box1">&#9815;</div>
+        <div class="box2">&#9816;</div>
+        <div class="box1">&#9814;</div>
     </section>
+
+    <!-- Winner Modal -->
+    <div id="winner-modal-overlay" class="modal-overlay">
+        <div class="winner-modal">
+            <div class="winner-icon">🏆</div>
+            <h2 id="winner-title" class="winner-title">Victory!</h2>
+            <p id="winner-message" class="winner-message">White has captured the King!</p>
+            <button id="play-again-btn" class="play-again-btn">Play Again</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
