@@ -105,11 +105,11 @@ h4 {
     padding-top: 10px;
 }
 
-.second-text,
-.second-insidecard {
-    display: inline-block;
-    vertical-align: top;
+.second-text{
+    /* display: inline-block; */
+    /* vertical-align: top; */
     border-radius: 8px;
+    float: left;
 }
 
 .second-text {
@@ -137,7 +137,12 @@ h4 {
     height: 90px;
     background-image: url("../images/rajan.jpeg");
     background-size: cover;
-    margin: -105px 0 0 125px;
+    /* margin: -105px 0 0 125px; */
+    /* transform: translateX(125px) translateY(5px); */
+    border-radius: 8px;
+    float: right;
+    margin-right: 10px;
+
 }
 
 button {
