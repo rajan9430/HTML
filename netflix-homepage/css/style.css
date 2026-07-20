@@ -161,7 +161,7 @@
 
 .box1 .card-body2 {
     display: flex;
-    margin: 0 0 0 150px;
+    margin-left: 150px;
     gap: 15px;
 }
 
@@ -269,4 +269,50 @@
 }
 .box2 .btn-btn i{
     color: white;
+}
+.box2 .para p{
+    color: #B3B3B3;
+    padding-top: 30px;
+    text-align: start;
+    width: 970px;
+    margin-left: 145px;
+}
+footer{
+    background-color: #000;
+    height: 500px;
+}
+.footer{
+    margin-left: 145px;
+    margin-right: 145px;
+}
+.footer span{
+    color: #B3B3B3;
+    font-size: 20px;
+    line-height: 4;
+}
+.footer .foot-detail{
+    display: flex;
+    justify-content: space-between;
+}
+.foot-detail a{
+    color: #B3B3B3;
+    line-height: 2;
+}
+.footer .lag{
+    height: 33px;
+    width: 100px;
+    background-color: #111010;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 50px 0 40px 0;
+}
+.footer .netflix-india{
+    color: #B3B3B3;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+.footer .netflix-indi{
+    color: #808080;
+    font-size: 15px;
 }
