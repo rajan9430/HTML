@@ -66,9 +66,6 @@ nav li {
     text-align: justify;
     line-height: 22px;
 }
-.box2 p mark{
-    color: red;
-}
 .box2 p::first-letter{
     font-size: 27px;
     color: red;
