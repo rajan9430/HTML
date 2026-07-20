@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+body {
+    background-color: #F9F9F9;
+}
+::selection{
+    background-color: yellow;
+    color: red;
+}
+
+header {
+    width: 1260px;
+    height: 60px;
+    background-color: #222222;
+}
+
+header h2 {
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.box1 {
+    width: 200px;
+    height: 1000px ;
+    background-color: #FFFFFF;
+    border: 2px solid gray;
+    margin: 10px 0 0 10px;
+    float: left;
+}
+
+nav h3 {
+    margin: 20px 0 10px 15px;
+}
+
+nav li {
+    margin-left: 45px;
+    font-size: 14px;
+}
+
+.box1 ul :nth-child(1) {
+    color: blue;
+    font-weight: bold;
+}
+
+.box2 {
+    width: 1030px;
+    height: 1000px;
+    background-color: #ffffff;
+    border: 2px solid gray;
+    margin: 10px 0 0 10px;
+    float: left;
+}
+.box2 h3{
+    margin: 20px 0 10px 15px;
+}
+.box2 p{
+    margin: 20px 15px 10px 15px;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: justify;
+    line-height: 22px;
+}
+.box2 p mark{
+    color: red;
+}
+.box2 p::first-letter{
+    font-size: 27px;
+    color: red;
+    font-weight: bold;
+}
+.box2 img{
+    margin: 20px 0 10px 15px;
+    width: 300px;
+    border: 2px solid aqua;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+hr{
+    margin: 0 15px 0 15px;
+}
+.box2 ul{
+    margin-left: 50px;
+}
+.box2 li{
+    font-size: 14px;
+    width: 960px;
+}
+.box2 ul :nth-child(1){
+    background-color: #F1F8E9;
+}
+.box2 ul :nth-child(2){
+    background-color: #E0F7FA;
+}
+.box2 ul :nth-child(3){
+    background-color: #F1F8E9;
+    color: red;
+    font-style: italic;
+}
+.box2 ul :nth-child(4){
+    background-color: #E0F7FA;
+}
