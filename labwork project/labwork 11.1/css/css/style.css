@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.css{
+    height: 100vh;
+    /* width: 1250px; */
+    background-color: #F9F9F9;
+    padding: 30px;
+}
+.box{
+    width: 1200px;
+    height: 200px;
+    margin:0 20px 20px 20px;
+    background-color: #F2F2F2;
+    border: 1px solid rgb(179, 178, 178);
+    border-radius: 7px;
+}
+::selection{
+    background-color: yellow;
+}
+.box h3{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    /* padding-bottom: 10px; */
+}
+.css .box h3::first-letter{
+    font-size: 40px;
+    color: red;
+}
+
+p {
+    margin-left: 20px;
+    line-height: 25px;
+}
+
+.box :nth-child(3){
+    width: 1150px;
+    background-color: #FFFBCC;
+    margin-left: 20px;
+    padding-left: 10px;
+    font-style: italic;
+}
+.box :nth-child(5){
+    width: 1150px;
+    background-color: #C5E1A5;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 5px solid #E0F7FA;
+    font-weight: bold;
+}
+.box2{
+    width: 1200px;
+    height: 150px;
+    margin:0 20px 20px 20px;
+    background-color: #F2F2F2;
+    border: 1px solid rgb(179, 178, 178);
+    border-radius: 7px;
+}
+.box2 h3{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    /* padding-bottom: 10px; */
+}
+.css .box2 h3::first-letter{
+    font-size: 40px;
+    color: red;
+}
