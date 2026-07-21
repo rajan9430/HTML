@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 1262px;
+    height: 60px;
+    background-color: #2C3E50;
+}
+header h2{
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
+.aside{
+    width: 200px;
+    height: 100vh;
+    border: 1px solid grey;
+    float: left;
+}
+.main{
+    background-color: #EEF2F7;
+    width: 1062px;
+    height: 100vh;
+    float: left;
+}
+nav{
+    margin: 20px 0 0 20px;
+}
+nav h3{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+nav li{
+    list-style: none;
+    padding: 3px 0 3px 0;
+}
+nav li a{
+    text-decoration: none;
+    color: #0C0202;
+}
+.main{
+    position: relative;
+}
+.box{
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+    margin: 20px;
+    /* border: 2px solid grey; */
+    border-radius: 8px;
+    position: relative;
+}
+.main> :nth-child(1){
+    background-color: #FFF9C4;
+    border-radius: 8px;
+}
+.main> :nth-child(2){
+    background-color: #C8E6C9;
+    border-radius: 8px;
+    top: 20px;
+}
+.main> :nth-child(3){
+    background-color: #FFE0B2;
+    border-radius: 8px;
+    top: 60px;
+}
+.main> :nth-child(4){
+    background-color: #BBDEFB;
+    border-radius: 8px;
+    top: 100px;
+}
+.box h4{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.box > p{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    right: 15px;
+}
+.box ol{
+    position: absolute;
+    top: 50px;
+    left: 25px;
+}
+.btn{
+    width: 190px;
+    height: 55px;
+    background-color: #2C3E50;
+    transform: translateX(1075px) translateY(440px);
+    position: fixed;
+    border-top-left-radius: 10px;
+}
+.btn a button{
+    width: 70px;
+    height: 25px;
+    position: relative;
+    /* position: absolute; */
+    top: 15px;
+    left: 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
