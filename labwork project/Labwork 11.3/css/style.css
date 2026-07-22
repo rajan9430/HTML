@@ -28,7 +28,7 @@ header h2 {
     width: 100%;
     height: 100vh;
     position: relative;
-    background-color: aqua;
+    background-color: azure;
     /* top: 500px; */
 }
 
@@ -88,9 +88,10 @@ nav li a {
 }
 
 .main> :nth-child(4) {
-    background-color: #BBDEFB;
+        background-color: #BBDEFB;
     border-radius: 8px;
-    top: 100px;
+    top: 270px;
+    right: 650px;
 }
 
 .box h4 {
