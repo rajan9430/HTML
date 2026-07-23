@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover, after & before</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header{
+            width: 100%;
+            height: 50px;
+            background: linear-gradient(to right, red , blue);
+        }
+        ul{
+            text-align: center;
+        }
+        ul li{
+            display: inline-block;
+            padding: 15px;
+            
+        }
+        ul li a{
+            list-style: none;
+            text-decoration: none;
+            color: #fff;
+            font-size: 17px;
+            font-weight: bold;
+            width: 0;
+            position: relative;
+            padding-bottom: 15px;
+        }
+      
+        ul li a::after{
+            content: " ";
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            background: linear-gradient(to right, rgb(9, 255, 0), rgb(249, 55, 55), rgb(235, 53, 159));
+            border-radius: 50px;
+            width: 100%;
+            height: 4px;
+            transition: 1s;
+            transform: scaleX(0);
+            transform-origin: left;
+        }
+        ul li a:hover{
+            color: chartreuse;
+        }
+        ul li a:hover::after{
+            transform: scaleX(1);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>
